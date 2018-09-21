@@ -1,0 +1,17 @@
+﻿@using Chess.Web.Controllers;
+@{
+    TotalNum stat = (TotalNum)ViewBag.Data;
+    ViewBag.Title = "DataAnalysis";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h2>概况</h2>
+    <div class="jumbotron">
+        <p>总注册人数:<span style="font-size:20px; color:green"> @stat.TotalRegistUser </span></p>
+        <p>今日注册人数:<span style="font-size:20px; color:green"> @stat.TodayRegistUser </span></p>
+        <p>总充值:<span style="font-size:20px; color:green"> @(stat.TotalRecharge/100) </span></p>
+        <p>今日充值:<span style="font-size:20px; color:green"> @(stat.TodayRecharge/100) </span></p>
+    </div>
+</div>
+

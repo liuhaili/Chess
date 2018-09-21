@@ -1,0 +1,8 @@
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Release\Chess.Entity.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Release\Chess.Entity.pdb
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Release\Lemon.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Release\Lemon.pdb
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Release\Chess.Entity.csprojResolveAssemblyReference.cache
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Release\Chess.Entity.csproj.CoreCompileInputs.cache
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Release\Chess.Entity.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Release\Chess.Entity.pdb

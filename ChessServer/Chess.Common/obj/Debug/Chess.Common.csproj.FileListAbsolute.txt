@@ -1,0 +1,11 @@
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\Chess.Common.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\Chess.Common.pdb
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\AsyncBridge.Net35.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\Chess.Message.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\System.Threading.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Debug\Chess.Message.pdb
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Debug\Chess.Common.dll
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Debug\Chess.Common.pdb
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Debug\Chess.Common.csproj.CoreCompileInputs.cache
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Debug\Chess.Common.csprojAssemblyReference.cache
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Debug\Chess.Common.csproj.CopyComplete

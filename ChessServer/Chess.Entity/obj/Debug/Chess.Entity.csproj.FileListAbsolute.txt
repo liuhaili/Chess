@@ -1,0 +1,9 @@
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Debug\Chess.Entity.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Debug\Chess.Entity.pdb
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Debug\Chess.Entity.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Debug\Chess.Entity.pdb
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Debug\Lemon.dll
+F:\Chess\trunk\ChessServer\Chess.Entity\bin\Debug\Lemon.pdb
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Debug\Chess.Entity.csproj.CoreCompileInputs.cache
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Debug\Chess.Entity.csprojAssemblyReference.cache
+F:\Chess\trunk\ChessServer\Chess.Entity\obj\Debug\Chess.Entity.csproj.CopyComplete

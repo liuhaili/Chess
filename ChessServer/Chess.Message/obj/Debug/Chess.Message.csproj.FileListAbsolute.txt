@@ -1,0 +1,6 @@
+F:\Chess\trunk\ChessServer\Chess.Message\bin\Debug\Chess.Message.dll
+F:\Chess\trunk\ChessServer\Chess.Message\bin\Debug\Chess.Message.pdb
+F:\Chess\trunk\ChessServer\Chess.Message\obj\Debug\Chess.Message.dll
+F:\Chess\trunk\ChessServer\Chess.Message\obj\Debug\Chess.Message.pdb
+F:\Chess\trunk\ChessServer\Chess.Message\obj\Debug\Chess.Message.csproj.CoreCompileInputs.cache
+F:\Chess\trunk\ChessServer\Chess.Message\obj\Debug\Chess.Message.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+﻿<Properties StartupItem="DOTween.dll">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\..\Scripts\View\UIWidget\PropGridUICtr.cs" line="597" offsetX="760" offsetY="9536" expression="player.GetComponent&lt;CharInstanceModel&gt; ().RoleStatus.PropsList" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,56 @@
+﻿@using Chess.Web.Controllers;
+@using Chess.Entity;
+@{
+    List<GoodsPayLog> stat = (List<GoodsPayLog>)ViewBag.Data;
+    List<EStore> goods = (List<EStore>)ViewBag.Goods;
+    string goodsid = Request.Params["goodsid"];
+    ViewBag.Title = "根据商品统计";
+}
+
+<form class="form-inline" style="width:1024px; margin-top:20px">
+    <label for="idnum">ID号</label>
+    <select class="form-control" name="goodsid">
+        @foreach (var g in goods)
+        {
+            if (goodsid == g.ID.ToString())
+            {
+                <option value="@g.ID" selected="selected">@g.Description</option>
+            }
+            else
+            {
+                <option value="@g.ID">@g.Description</option>
+            }
+        }
+    </select>
+    <button type="submit" class="btn btn-default">查找</button>
+</form>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>购买人</th>
+            <th>花费钻石</th>
+            <th>当前钻石</th>
+            <th>购买时间</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            if (stat != null)
+            {
+                int index = 0;
+                foreach (var l in stat)
+                {
+                    index++;
+                    <tr>
+                        <th scope="row">@index</th>
+                        <td>@l.NickName</td>
+                        <td>@l.CostDiamond</td>
+                        <td>@l.NowDiamond</td>
+                        <td>@l.BuyTime.ToString("yyyy-MM-dd hh:mm:ss")</td>
+                    </tr>
+                }
+            }
+        }
+    </tbody>
+</table>

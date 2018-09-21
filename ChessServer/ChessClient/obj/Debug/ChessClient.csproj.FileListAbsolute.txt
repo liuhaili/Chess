@@ -1,0 +1,15 @@
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\ChessClient.exe.config
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\ChessClient.exe
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\ChessClient.pdb
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Chess.Entity.dll
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Chess.Message.dll
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Lemon.dll
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Newtonsoft.Json.dll
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Lemon.pdb
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Chess.Entity.pdb
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Chess.Message.pdb
+F:\Chess\trunk\ChessServer\ChessClient\bin\Debug\Newtonsoft.Json.xml
+F:\Chess\trunk\ChessServer\ChessClient\obj\Debug\ChessClient.csprojResolveAssemblyReference.cache
+F:\Chess\trunk\ChessServer\ChessClient\obj\Debug\ChessClient.exe
+F:\Chess\trunk\ChessServer\ChessClient\obj\Debug\ChessClient.pdb
+F:\Chess\trunk\ChessServer\ChessClient\obj\Debug\ChessClient.csproj.CoreCompileInputs.cache

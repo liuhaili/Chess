@@ -1,0 +1,41 @@
+﻿@using Chess.Web.Controllers;
+@{
+    List<UserPayLog> stat = (List<UserPayLog>)ViewBag.Data;
+    ViewBag.Title = "About";
+}
+
+<form class="form-inline" style="width:1024px; margin-top:20px">
+    <label for="idnum">ID号</label>
+    <input type="text" class="form-control" id="idnum" name="idnum" placeholder="" value="@Request.Params["idnum"]">
+    <button type="submit" class="btn btn-default">查找</button>
+</form>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>日期</th>
+            <th>购买物品</th>
+            <th>花费</th>
+            <th>获得钻石数</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            if (stat != null)
+            {
+                int index = 0;
+                foreach (var l in stat)
+                {
+                    index++;
+                    <tr>
+                        <th scope="row">@index</th>
+                        <td>@l.BuyTime.ToString("yyyy-MM-dd hh:mm:ss")</td>
+                        <td>@l.GoodsName</td>
+                        <td>@l.Cost</td>
+                        <td>@l.Diamon</td>
+                    </tr>
+                }
+            }
+        }        
+    </tbody>
+</table>

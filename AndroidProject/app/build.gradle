@@ -1,0 +1,47 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/classes.jar')
+    compile files('libs/open_sdk_r5756_lite.jar')
+    compile files('libs/TencentLocationSDK_v5.0.1_r251203_170116_1729.jar')
+    compile files('libs/wechat-sdk-android-without-mta-1.1.7.jar')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/core-3.3.0.jar')
+    compile files('libs/okhttp-3.4.1.jar')
+    compile files('libs/okio-1.8.0.jar')
+    compile files('libs/pay2.4.0.1.jar')
+    compile files('libs/recyclerview.jar')
+}

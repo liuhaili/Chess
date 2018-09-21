@@ -1,0 +1,10 @@
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\Chess.Common.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\Chess.Common.pdb
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\AsyncBridge.Net35.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\Chess.Message.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\System.Threading.dll
+F:\Chess\trunk\ChessServer\Chess.Common\bin\Release\Chess.Message.pdb
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Release\Chess.Common.csprojResolveAssemblyReference.cache
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Release\Chess.Common.csproj.CoreCompileInputs.cache
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Release\Chess.Common.dll
+F:\Chess\trunk\ChessServer\Chess.Common\obj\Release\Chess.Common.pdb
